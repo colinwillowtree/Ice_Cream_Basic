@@ -18,9 +18,6 @@ function setup() {
   textAlign(CENTER);
   rectMode(CENTER);
 
-  font = loadFont("data/ZTGatha-SemiBold.ttf");
-  textFont(font);
-  
 }
 
 
