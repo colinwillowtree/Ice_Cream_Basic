@@ -8,7 +8,7 @@ function preload() {
 
 
   for (i=0; i<30; i++) {
-    icecream[i] = loadImage("data/icecream_alpha/icecream_" + nf(i, 4) + ".png")
+    icecream[i] = loadImage("data/icecream_" + nf(i, 4) + ".png")
   }
 }
 
@@ -20,9 +20,7 @@ function setup() {
   blendMode(BLEND);
   textAlign(CENTER);
   rectMode(CENTER);
-
-  font = loadFont("data/ZTGatha-SemiBold.ttf");
-  textFont(font);
+  
 }
 
 
