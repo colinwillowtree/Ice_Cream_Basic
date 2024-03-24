@@ -4,7 +4,7 @@ var lerper;
 function preload() {
 
   for (i=0; i<30; i++) {
-    icecream[i] = loadImage("data/icecream_" + nf(i, 4) + ".png")
+    icecream[i] = loadImage("https://raw.githubusercontent.com/colinwillowtree/Ice_Cream_Basic/master/data/icecream_" + nf(i, 4) + ".png");
   }
 }
 
